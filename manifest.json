@@ -1,10 +1,10 @@
 {
-  "name": "CharlieTheAdventurer",
+  "name": "Charlie The Adventurer",
   "short_name": "Charlie",
   "start_url": "./index.html",
   "display": "fullscreen",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "background_color": "#ff0000",
+  "theme_color": "#ff0000",
   "icons": [
     {
       "src": "icons/icon-192x192.png",
@@ -16,5 +16,10 @@
       "sizes": "512x512",
       "type": "image/png"
     }
+  ],
+  "id": "Charlie",
+  "description": "Uh Oh! Your mum was kidnapped by the evil Blorb! You need to save her ready for her birthday meal!",
+  "categories": [
+    "games"
   ]
 }
