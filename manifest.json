@@ -1,25 +1,21 @@
 {
-  "name": "Charlie The Adventurer",
+  "name": "Charlie",
   "short_name": "Charlie",
+  "id": "com.calebvproductions.charlie",
+  "description": "Awesome Adventure platformer to save your mum from the evil king. THE  BLORB.",
+  "orientation": "landscape",
   "start_url": "./index.html",
-  "display": "fullscreen",
-  "background_color": "#ff0000",
-  "theme_color": "#ff0000",
+  "display": "standalone",
+  "background_color": "#000000",
+  "categories": [
+    "games",
+    "entertainment"
+  ],
   "icons": [
     {
-      "src": "icons/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "edf0570c7f39c59894c9e44669ec26eed272663d6dced489ddd57e5463597e8b-Live2.png2.png",
+      "sizes": "512x512"
     }
   ],
-  "id": "Charlie",
-  "description": "Uh Oh! Your mum was kidnapped by the evil Blorb! You need to save her ready for her birthday meal!",
-  "categories": [
-    "games"
-  ]
+  "theme_color": "#000000"
 }
