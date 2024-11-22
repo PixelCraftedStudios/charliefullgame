@@ -1,0 +1,15 @@
+{
+  "name": "Charlie",
+  "short_name": "Charlie",
+  "id": "com.calebvproductions.charlie",
+  "description": "Awesome Adventure platformer to save your mum from the evil king. THE  BLORB.",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "edf0570c7f39c59894c9e44669ec26eed272663d6dced489ddd57e5463597e8b-Live2.png2.png",
+        "sizes": "512x512"
+      }]
+}
