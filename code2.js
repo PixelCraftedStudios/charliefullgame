@@ -30,7 +30,7 @@ gdjs.Splash2Code.GDLevelEditorObjects3= [];
 gdjs.Splash2Code.GDLevelEditorObjects4= [];
 
 
-gdjs.Splash2Code.asyncCallback21171828 = function (runtimeScene, asyncObjectsList) {
+gdjs.Splash2Code.asyncCallback21223804 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Splash2Code.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Load", false);
 }gdjs.Splash2Code.localVariables.length = 0;
@@ -45,14 +45,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Splash2Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Splash2Code.asyncCallback21171828(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.Splash2Code.asyncCallback21223804(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Splash2Code.asyncCallback21171172 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Splash2Code.asyncCallback21223148 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Splash2Code.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Fade"), gdjs.Splash2Code.GDFadeObjects3);
 
@@ -75,14 +75,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Splash2Code.localVariables);
 for (const obj of gdjs.Splash2Code.GDFadeObjects2) asyncObjectsList.addObject("Fade", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(10), (runtimeScene) => (gdjs.Splash2Code.asyncCallback21171172(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(10), (runtimeScene) => (gdjs.Splash2Code.asyncCallback21223148(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.Splash2Code.asyncCallback21170516 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Splash2Code.asyncCallback21222492 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Splash2Code.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Fade"), gdjs.Splash2Code.GDFadeObjects2);
 {for(var i = 0, len = gdjs.Splash2Code.GDFadeObjects2.length ;i < len;++i) {
@@ -102,7 +102,7 @@ gdjs.Splash2Code.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Splash2Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Splash2Code.asyncCallback21170516(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Splash2Code.asyncCallback21222492(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -119,7 +119,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
-}{runtimeScene.getGame().getVariables().getFromIndex(1).setString("Splash");
+}{runtimeScene.getGame().getVariables().getFromIndex(1).setString("Title");
 }
 { //Subevents
 gdjs.Splash2Code.eventsList2(runtimeScene);} //End of subevents

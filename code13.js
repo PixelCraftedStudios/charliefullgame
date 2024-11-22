@@ -146,7 +146,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.PLACETHEHOLDERCode.asyncCallback22422948 = function (runtimeScene, asyncObjectsList) {
+};gdjs.PLACETHEHOLDERCode.asyncCallback22481092 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.PLACETHEHOLDERCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("NewTiledSprite"), gdjs.PLACETHEHOLDERCode.GDNewTiledSpriteObjects2);
 
@@ -168,7 +168,7 @@ gdjs.PLACETHEHOLDERCode.eventsList3 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.PLACETHEHOLDERCode.localVariables);
 for (const obj of gdjs.PLACETHEHOLDERCode.GDNewTiledSpriteObjects1) asyncObjectsList.addObject("NewTiledSprite", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.PLACETHEHOLDERCode.asyncCallback22422948(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.PLACETHEHOLDERCode.asyncCallback22481092(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -177,7 +177,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5)
 
 };gdjs.PLACETHEHOLDERCode.mapOfGDgdjs_9546PLACETHEHOLDERCode_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.PLACETHEHOLDERCode.GDPlayerObjects1});
 gdjs.PLACETHEHOLDERCode.mapOfGDgdjs_9546PLACETHEHOLDERCode_9546GDBlobObjects1Objects = Hashtable.newFrom({"Blob": gdjs.PLACETHEHOLDERCode.GDBlobObjects1});
-gdjs.PLACETHEHOLDERCode.asyncCallback22425860 = function (runtimeScene, asyncObjectsList) {
+gdjs.PLACETHEHOLDERCode.asyncCallback22484004 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.PLACETHEHOLDERCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("NewTiledSprite"), gdjs.PLACETHEHOLDERCode.GDNewTiledSpriteObjects3);
 
@@ -198,14 +198,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.PLACETHEHOLDERCode.localVariables);
 for (const obj of gdjs.PLACETHEHOLDERCode.GDNewTiledSpriteObjects2) asyncObjectsList.addObject("NewTiledSprite", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.7), (runtimeScene) => (gdjs.PLACETHEHOLDERCode.asyncCallback22425860(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.7), (runtimeScene) => (gdjs.PLACETHEHOLDERCode.asyncCallback22484004(runtimeScene, asyncObjectsList)));
 }
 }
 
 }
 
 
-};gdjs.PLACETHEHOLDERCode.asyncCallback22426148 = function (runtimeScene, asyncObjectsList) {
+};gdjs.PLACETHEHOLDERCode.asyncCallback22484292 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.PLACETHEHOLDERCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewTiledSprite"), gdjs.PLACETHEHOLDERCode.GDNewTiledSpriteObjects2);
 {for(var i = 0, len = gdjs.PLACETHEHOLDERCode.GDNewTiledSpriteObjects2.length ;i < len;++i) {
@@ -225,7 +225,7 @@ gdjs.PLACETHEHOLDERCode.eventsList5 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.PLACETHEHOLDERCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.PLACETHEHOLDERCode.asyncCallback22426148(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.PLACETHEHOLDERCode.asyncCallback22484292(runtimeScene, asyncObjectsList)));
 }
 }
 

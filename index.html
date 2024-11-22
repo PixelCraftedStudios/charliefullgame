@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="manifest" href="manifest.json">
+    <meta charset="UTF-8"/>
+    <link rel="manifest" href="manifest.webmanifest">
 
-	<meta charset="UTF-8" />
-	<link rel="manifest" href="manifest.webmanifest">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-	<meta name="theme-color" content="#000000" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 	<style>
 		body {
 			margin: 0;
 			padding: 0;
 			background-color: #000000;
-			overflow: hidden;
+            overflow: hidden;
 		}
+        #canvasArea {
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+        }
 
-		#canvasArea {
-			margin-left: auto;
-			margin-right: auto;
-			overflow: hidden;
-		}
+        
 	</style>
-	<!-- Libs and GDJS core files : -->
-	<script src="libs/jshashtable.js" crossorigin="anonymous"></script>
+    <!-- Libs and GDJS core files : -->
+		<script src="libs/jshashtable.js" crossorigin="anonymous"></script>
 	<script src="logger.js" crossorigin="anonymous"></script>
 	<script src="gd.js" crossorigin="anonymous"></script>
 	<script src="libs/rbush.js" crossorigin="anonymous"></script>

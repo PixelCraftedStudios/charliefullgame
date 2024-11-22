@@ -12,7 +12,7 @@ gdjs.CreditsCode.GDLevelEditorObjects1= [];
 gdjs.CreditsCode.GDLevelEditorObjects2= [];
 
 
-gdjs.CreditsCode.asyncCallback22278916 = function (runtimeScene, asyncObjectsList) {
+gdjs.CreditsCode.asyncCallback22337060 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.CreditsCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Title", false);
 }gdjs.CreditsCode.localVariables.length = 0;
@@ -26,7 +26,7 @@ gdjs.CreditsCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.CreditsCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(120), (runtimeScene) => (gdjs.CreditsCode.asyncCallback22278916(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(120), (runtimeScene) => (gdjs.CreditsCode.asyncCallback22337060(runtimeScene, asyncObjectsList)));
 }
 }
 
